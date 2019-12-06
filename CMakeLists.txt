@@ -3,4 +3,4 @@ project(lab10)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(lab10 main.cpp)
+add_executable(lab10 main.cpp heap.hpp Hospital.hpp Patient.hpp)
