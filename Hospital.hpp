@@ -32,7 +32,7 @@ public:
     void printPatients(){
 
         for(std::vector<Patient>::iterator it = plist.begin(); it <plist.end(); ++it) {
-            cout << it->getName() << endl;
+            cout << it->getName() <<" "<<it->getSeverity()<< endl;
         }
     }
     void acceptHeap(vector<Patient> list){

@@ -27,7 +27,7 @@ public:
         return l.severity> r.severity; // keep the same order
     }
     ~Patient(){
-        cout<<name<< " got recovered. Left the hospital"<<endl;
+
     };
 };
 #endif //LAB10_PATIENT_HPP

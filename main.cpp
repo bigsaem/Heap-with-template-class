@@ -10,6 +10,7 @@ int main() {
     hospital->addPatient(2, "Amir");
     hospital->addPatient(4, "Jameson");
     hospital->printPatients();
+    cout<<"---------------------------------------"<<endl;
     heap<Patient, std::vector<Patient>> heap(hospital->getPlist());
     hospital->acceptHeap(heap.getList());
     hospital->printPatients();
